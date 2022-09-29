@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portofolio Arif Setiawan - FE2897318</title>
+</head>
+
+<body>
+  <nav class="bg-[#252525] max-w-full mx-auto py-4 px-10 md:py-12 md:px-24">
+    <div class="container text-white justify-between items-center hidden md:flex">
+      <h1 class="text-4xl font-bold">Portofolio</h1>
+      <ul class="flex space-x-14 text-xl">
+        <li><a href="#" class="font-bold hover:text-[#f9004e]">Home</a></li>
+        <li><a href="#" class="font-bold hover:text-[#f9004e]">About</a></li>
+        <li><a href="#" class="font-bold hover:text-[#f9004e]">Experience</a></li>
+        <li><a href="#" class="font-bold hover:text-[#f9004e]">Contact</a></li>
+      </ul>
+      <button class="bg-[#f9004e] py-4 px-8 rounded-[50px] font-bold text-xl">Follow me!</button>
+    </div>
+    <div class="flex justify-between md:hidden">
+      <h1 class="text-white text-xl font-bold">Portofolio</h1>
+      <img class="w-6"
+        src="https://img.icons8.com/external-others-bomsymbols-/91/000000/external-hamberger-flat-general-office-others-bomsymbols-.png" />
+    </div>
+  </nav>
+  <header class="bg-[#191918] text-white py-3 px-10 md:py-14 md:px-24">
+    <div class="flex flex-col justify-center py-44 space-y-4 text-center md:text-left">
+      <h4 class="md:text-2xl font-sans">Hallo, nama saya</h4>
+      <h1 class="font-bold text-2xl md:text-8xl">Arif <span class="text-[#f9004e] font-bold">Setiawan</span></h1>
+      <h3 class="text-1xl text-justify md:text-2xl font-bold"> Saya adalah seorang mahasiswa D3-Teknik Informatika dari
+        Universitas Amikom Yogyakarta </h3>
+    </div>
+  </header>
+
+  <section class="bg-black text-white max-w-full py-3 px-10 md:py-14 md:px-24">
+    <div class="flex flex-col justify-center items-center md:flex-row">
+      <article class="md:w-[40%]">
+        <img src="assets/fotoku.jpeg" class="w-64 md:w-[428px]" />
+      </article>
+      <section class="md:w-[60%] md:px-8 md:space-y-4 text-center md:text-left">
+        <h2 class="md:text-6xl text font-bold">About Me</h2>
+        <h5 class="text-xl font-bold">Mahasiswa<span class="text-[#f9004e] font-bold"> Amikom</span></h5>
+        <p class="md:w-[500px] text-justify md:text-left">
+          Saya adalah orang yang tertarik pada dunia kreatif seperti UI/UX Design dan Graphic Design. Saya mempunyai
+          pengalaman menjadi wakil Ketua pada Organisasi Karangtaurna Saptamanunggal dan menjadi Koordinator Divisi
+          Computer
+          Network pada Organisasi Amikom Computer Club.
+        </p>
+        <div class="space-x-1 flex">
+          <a target="_blank" href="https://www.instagram.com/arifsetia_one/?hl=id">
+            <button class="bg-[#f9004e] py-2 px-6 rounded-[50px] hover:text-black font-bold">Instagram</button>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100007533181905">
+            <button class="bg-[#f9004e] py-2 px-6 rounded-[50px] hover:text-black font-bold"">Facebook</button>
+            </a>
+            <a target=" _blank" href="https://www.linkedin.com/in/arif-setiawan-9139b51b7/"> <button
+                class="bg-[#f9004e] py-2 px-6 rounded-[50px] hover:text-black font-bold">Linkedin</button></a>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section class="bg-[#191919] text-white max-w-full mx-auto px-28 py-28">
+    <div class="flex flex-col justify-center md:space-x-96 items-center md:flex-row">
+      <div>
+        <h2 class="text-3xl font-bold mb-3">Organizational Experience</h2>
+        <ul class="list-disc px-6">
+          <li>Amikom Computer Club</li>
+          <li>Saptamanunggal</li>
+          <li>Ikatan Mahasiswa Bidikmisi Amikom</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold mb-3">Working Experience</h2>
+        <ul class="list-disc md:px-6">
+          <li>NewCyber.net</li>
+          <li>Prima ATK</li>
+          <li>PT.Citra Sarungtangan Indonesia 2</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="bg-black text-white max-w-full px-28 py-28">
+    <div class="flex flex-col items-center justify-center space-y-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Contact Me</h2>
+      <form class="space-y-1">
+        <div>
+          <input class="bg-slate-900 w-[300px] md:w-[600px] p-3" type="text" id="name" name="name"
+            placeholder="Masukkan Nama" />
+        </div>
+        <div>
+          <input class="bg-slate-900 w-[300px] md:w-[600px] p-3" type="txt" id="email" name="email"
+            placeholder="Masukkan Email" />
+        </div>
+        <div>
+          <textarea class="bg-slate-900 w-[300px] md:w-[600px] p-3" id="message" placeholder="Message"></textarea>
+        </div>
+        <div class="text-center">
+          <button class="bg-slate-700 py-3 px-7 font-bold hover:text-black rounded-[50px]" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="bg-[#191919] px-10 py-3 md:px-28 md:py-10 text-white max-w-full">
+    <div class="flex justify-center items-center"> Copyright &copy; 2022 by Arif Setiawan-FE2897318 </div>
+  </footer>
+</body>
+
+</html>
